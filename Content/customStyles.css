@@ -1,0 +1,46 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Syne+Mono&display=swap');
+
+.navbar {
+    background-color: #00BFA6;
+    border-color: white;
+}
+
+.navbar-brand { color: white !important }
+.navbar-brand:hover { color: seagreen !important }
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    font-family: 'Roboto Slab'
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: seagreen;
+}
+
+.page-header, h2 {
+    font-family: 'Roboto Slab';
+    color: #00BFA6;
+}
+
+#home, #main-search, #dashboard {
+    height: 100vh;
+}
+
+#main-search, #dashboard {
+    padding-top: 50px;
+}
+
+h1 {
+    color: #00BFA6;
+}
+
+.btn,button {
+    background-color: #00BFA6;
+    color:white;
+}
+
+.btn:hover,button:hover{
+    color:#00BFA6;
+    background-color:white;
+    border:0.5px solid #00BFA6;
+}
